@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Names-PhoneNumbers</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <style>
+        *{
+            font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        }
+        header{
+            background-color: rgb(127, 210, 255);
+            padding: 20px;
+        }
+        header h1{
+            color: white;
+            font-size: 36pt;
+            
+        }
+        main{
+            margin-top: 10px;
+
+        }
+        form legend{
+            color: blue;
+            font-weight: bold;
+            font-size: 18pt;
+        }
+
+        button{
+            padding: 5px;
+            font-size: 12pt;
+            color: rgb(255, 0, 0);
+            background-color: rgb(188, 240, 223);
+        }
+        button:hover{
+            filter: brightness(1.4);
+            transform: rotate(-1deg);
+        }
+        
+
+    </style>
+</head>
+
+
+
+<body>
+    <header>
+        <h1>Data Collection</h1>
+
+    </header>
+
+    <main>
+        <form action="/submit" method="post">
+            <fieldset>
+                <legend>User Information</legend>
+                <br>
+                <label for="last-name">Enter your last name:</label>
+                <input type="text" id="last-name" name="last-name" required placeholder="Enter your last name..."> 
+                <br><br>
+                <label for="first-name">Enter your first name:</label>
+                <input type="text" id="first-name" name="first-name" required placeholder="Enter your first name">
+                <br><br>
+                <label>Enter your phone number:</label>
+                <input type="text" id="phone-number" name="phone-number" placeholder="ddd-ddd-dddd">
+                <br><br>
+                <button type="submit">Submit</button>
+
+        
+            </fieldset>
+        </form>
+
+
+
+    </main>
+
+
+
+
+
+</body>
+
+
+</html>

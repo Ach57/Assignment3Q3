@@ -1,0 +1,18 @@
+{
+  "name": "phone-number-validation-app",
+  "version": "1.0.0",
+  "description": "An Express.js application that validates phone numbers in the format ddd-ddd-dddd.",
+  "main": "Node.js",
+  "scripts": {
+    "start": "node Node.js"
+  },
+  "dependencies": {
+    "express": "^4.18.2",
+    "body-parser": "^1.20.2"
+  },
+  "engines": {
+    "node": ">=14.0.0"
+  },
+  "author": "",
+  "license": "ISC"
+}
